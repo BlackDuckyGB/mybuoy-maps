@@ -74,7 +74,7 @@ maps/                                (= ~/maps, hors docroot : fichiers <name>_<
   "Status": "OK",
   "Msg": "update",
   "Map": [
-    { "Title": "Land polygons (monde)", "Name": "land_polygons", "Version": 1,
+    { "Title": "Land polygons (world)", "Name": "land_polygons", "Version": 1,
       "FileSize": 4235317248, "CompressedSize": 2019622371,
       "Url": "https://github.com/BlackDady/mybuoy-maps/releases/download/maps-v1/land_polygons.sqlite3.gz" },
     { "Title": "France", "Name": "france", "Version": 2, "FileSize": 49152, "CompressedSize": 1716,

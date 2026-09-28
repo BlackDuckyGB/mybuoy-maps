@@ -34,12 +34,22 @@ function gb_maps_list() {
     // 1) Maps codées en dur, hébergées sur GitHub (téléchargement direct).
     $hardcoded = array(
         array(
-            'Title'    => 'Land polygons (monde)',
+            'Title'    => 'Land polygons (world)',
             'Name'     => 'land_polygons',
             'Version'  => 1,
             'FileSize'       => 4235317248, // .sqlite3 décompressé (la base)
             'CompressedSize' => 2019622371, // .gz téléchargé
             'Url'            => 'https://github.com/BlackDady/mybuoy-maps/releases/download/maps-v1/land_polygons.sqlite3.gz',
+        ),
+        // Marées : ce n'est pas de la donnée carto. L'app reconnait l'entree a son
+        // 'Name' et la traite comme un annuaire de marees, pas comme une map.
+        array(
+            'Title'    => 'Tides (world)',
+            'Name'     => 'tides_world',
+            'Version'  => 1,
+            'FileSize'       => 187798600, // .bin décompressé (la grille)
+            'CompressedSize' => 21120501,  // .gz téléchargé
+            'Url'            => 'https://github.com/BlackDady/mybuoy-tides/releases/download/tides-v1/tides_world.bin.gz',
         ),
     );
 
