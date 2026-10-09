@@ -39,7 +39,7 @@ function gb_maps_list() {
             'Version'  => 1,
             'FileSize'       => 4235317248, // .sqlite3 décompressé (la base)
             'CompressedSize' => 2019622371, // .gz téléchargé
-            'Url'            => 'https://github.com/BlackDady/mybuoy-maps/releases/download/maps-v1/land_polygons.sqlite3.gz',
+            'Url'            => 'https://github.com/BlackDuckyGB/mybuoy-maps/releases/download/maps-v1/land_polygons.sqlite3.gz',
         ),
         // Marées : ce n'est pas de la donnée carto. L'app reconnait l'entree a son
         // 'Name' et la traite comme un annuaire de marees, pas comme une map.
@@ -49,7 +49,7 @@ function gb_maps_list() {
             'Version'  => 1,
             'FileSize'       => 187798600, // .bin décompressé (la grille)
             'CompressedSize' => 21120501,  // .gz téléchargé
-            'Url'            => 'https://github.com/BlackDady/mybuoy-tides/releases/download/tides-v1/tides_world.bin.gz',
+            'Url'            => 'https://github.com/BlackDuckyGB/mybuoy-tides/releases/download/tides-v1/tides_world.bin.gz',
         ),
     );
 
